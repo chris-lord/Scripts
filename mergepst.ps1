@@ -1,0 +1,1 @@
+New-MailboxExportRequest -Mailbox michael.zannes -FilePath "\\mgmt01-caz\c$\users\chris.admin\Desktop\e-mail archives.pst"; New-MailboxExportRequest -Mailbox michael.zannes -FilePath "\\mgmt01-caz\c$\users\chris.admin\Desktop\e-mail archives.pst" -isArchive
