@@ -1,7 +1,10 @@
+#List all duplicate service tags in AD
+#By Chris Lord 27/04/2015
+
 import-module activedirectory
 
-#Creates an object to hold all computers in CAZ Computers
-$users = Get-ADComputer -Filter * -Properties Name,Description -SearchBase "OU=CAZ Computers,OU=NGD - Peak,DC=newgold,DC=net"
+#Creates an object to hold all computers in foo Computers
+$users = Get-ADComputer -Filter * -Properties Name,Description -SearchBase "OU=foo computers,OU=foo,DC=foo,DC=net"
 
 #Initialise an array
 $serviceTag = @()

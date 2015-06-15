@@ -7,7 +7,7 @@
 $strFilter ='(objectCategory=computer)'
 
 ## Create new DirectoryEntry object. This sets the AD location to start search from.
-$objDomain = New-Object System.DirectoryServices.DirectoryEntry("LDAP://ou=CAZ Computers,ou=NGD - Peak,dc=newgold,dc=net")
+$objDomain = New-Object System.DirectoryServices.DirectoryEntry("LDAP://ou=foo Computers,ou=foo,dc=foo,dc=net")
 
 
 ## Creates a search object to actually search AD. Assigns values to the search object properties.
